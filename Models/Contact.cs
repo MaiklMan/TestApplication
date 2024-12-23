@@ -20,5 +20,6 @@ namespace TestApplication.Models
         [Required(ErrorMessage = "Вам нужно ввести сообщение")]
         [StringLength(30, ErrorMessage = "Текст менее 30 символов")]
         public string Message { get; set; }
+
     }
 }
